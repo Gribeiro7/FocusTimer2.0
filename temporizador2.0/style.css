@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+}
+
+ main {
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    margin-right: 207px;
+}
+
+#timer {
+    display: flex;
+
+    font-family: 'Roboto';
+    font-size: 126px;
+    font-style: normal;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #323238;
+}
+
+#controls {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide {
+    display: none;
+}
+
+
+#sounds {
+	display: grid;
+	grid-template-columns: 140px 140px;
+    gap: 32px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
